@@ -2,6 +2,7 @@ package com.huchen.springboot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ImportResource;
 
 /*
 *   @Target(ElementType.TYPE)
@@ -57,6 +58,7 @@ J2EE的整体整合解决方案和自动配置都在spring-boot-autoconfigure-1.
 
 
 * */
+//@ImportResource(locations = {"classpath:bean.xml"})
 @SpringBootApplication
 public class Springboot02Application {
 

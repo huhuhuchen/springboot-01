@@ -1,6 +1,7 @@
 package com.huchen.springboot.bean;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Component;
 
 import java.util.Date;
@@ -20,6 +21,7 @@ import java.util.Map;
          只有这个组件是容器中的组件，才能容器提供的@ConfigurationProperties功能；
 
 * */
+//@PropertySource("classpath:person.properties")//读取指定的配置文件
 @Component
 @ConfigurationProperties(prefix = "person")
 public class Person {
