@@ -1,13 +1,13 @@
-server:
-  port: 8033
-spring:
-  profiles:
-    active: dev
----
-server:
-  port: 8048
-spring:
-  profiles:dev
+#server:
+#  port: 8033
+#spring:
+#  profiles:
+#    active: dev
+#---
+#server:
+#  port: 8048
+#spring:
+#  profiles:dev
 #---
 #server:
 #  port: 8099
